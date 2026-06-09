@@ -1,0 +1,44 @@
+# Claude Code
+.claude/
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Gerado em tempo de execução (não é código-fonte)
+data/processed/
+report/relatorio_final.pdf
+
+# Dependências compiladas
+*.egg-info/
+dist/
+build/
