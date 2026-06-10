@@ -106,15 +106,35 @@ def criar_bst_rs(grafo: Grafo) -> BinarySearchTree:
 
 
 def criar_subgrafo_n_maior_risco(n: int) -> Grafo:
-    """Retorna subgrafo com os N municípios de maior risco (para benchmark)."""
+    """
+    Retorna subgrafo CONECTADO com N municípios, priorizando os de maior risco.
+
+    Selecionar simplesmente os N municípios de maior índice de risco pode gerar
+    um subgrafo desconexo (eles podem não ser vizinhos entre si), inviabilizando
+    o cálculo da MST pela Força Bruta. Por isso a expansão começa no município
+    de maior risco e, a cada passo, anexa o vizinho de maior risco da fronteira
+    de expansão — garantindo conectividade e mantendo o viés por criticidade.
+    """
     grafo_completo = criar_grafo_rs()
     municipios_ordenados = sorted(
         grafo_completo.vertices.values(),
         key=lambda m: m[2],
         reverse=True,
     )
-    ids = [m[0] for m in municipios_ordenados[:n]]
-    return grafo_completo.subgrafo(ids)
+    inicio = municipios_ordenados[0][0]
+
+    selecionados = {inicio}
+    fronteira = {v for v, _ in grafo_completo.vizinhos(inicio)}
+
+    while len(selecionados) < n and fronteira:
+        candidatos = fronteira - selecionados
+        if not candidatos:
+            break
+        proximo = max(candidatos, key=lambda v: grafo_completo.vertices[v][2])
+        selecionados.add(proximo)
+        fronteira.update(v for v, _ in grafo_completo.vizinhos(proximo))
+
+    return grafo_completo.subgrafo(list(selecionados))
 
 
 if __name__ == '__main__':

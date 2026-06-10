@@ -34,10 +34,6 @@ Thumbs.db
 *.swp
 *.swo
 
-# Gerado em tempo de execução (não é código-fonte)
-data/processed/
-report/relatorio_final.pdf
-
 # Dependências compiladas
 *.egg-info/
 dist/

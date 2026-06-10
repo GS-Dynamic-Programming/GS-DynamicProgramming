@@ -1,0 +1,301 @@
+{
+  "municipio": [
+    4314902,
+    "Porto Alegre",
+    0.72,
+    1850.0,
+    1400000
+  ],
+  "left": {
+    "municipio": [
+      4313409,
+      "Novo Hamburgo",
+      0.65,
+      900.0,
+      239000
+    ],
+    "left": {
+      "municipio": [
+        4312427,
+        "Montenegro",
+        0.58,
+        350.0,
+        60000
+      ],
+      "left": {
+        "municipio": [
+          4306403,
+          "Encantado",
+          0.55,
+          280.0,
+          24000
+        ],
+        "left": {
+          "municipio": [
+            4316709,
+            "Santa Cruz do Sul",
+            0.52,
+            520.0,
+            130000
+          ],
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "municipio": [
+            4320107,
+            "Sinimbu",
+            0.57,
+            190.0,
+            12000
+          ],
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "municipio": [
+          4322301,
+          "Triunfo",
+          0.62,
+          280.0,
+          25000
+        ],
+        "left": {
+          "municipio": [
+            4307625,
+            "Estrela",
+            0.61,
+            310.0,
+            35000
+          ],
+          "left": {
+            "municipio": [
+              4322806,
+              "Venâncio Aires",
+              0.59,
+              350.0,
+              70000
+            ],
+            "left": null,
+            "right": {
+              "municipio": [
+                4313300,
+                "Novo Cabrais",
+                0.6,
+                190.0,
+                7000
+              ],
+              "left": null,
+              "right": null
+            }
+          },
+          "right": null
+        },
+        "right": {
+          "municipio": [
+            4317202,
+            "São Sebastião do Caí",
+            0.63,
+            270.0,
+            25000
+          ],
+          "left": null,
+          "right": {
+            "municipio": [
+              4306106,
+              "Cruzeiro do Sul",
+              0.64,
+              240.0,
+              20000
+            ],
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    },
+    "right": {
+      "municipio": [
+        4309209,
+        "Gravataí",
+        0.69,
+        850.0,
+        280000
+      ],
+      "left": {
+        "municipio": [
+          4321303,
+          "Taquari",
+          0.67,
+          300.0,
+          27000
+        ],
+        "left": {
+          "municipio": [
+            4307807,
+            "Fazenda Vilanova",
+            0.66,
+            180.0,
+            10000
+          ],
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "municipio": [
+            4308508,
+            "Estância Velha",
+            0.68,
+            290.0,
+            42000
+          ],
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "municipio": [
+          4318408,
+          "São Jerônimo",
+          0.7,
+          260.0,
+          23000
+        ],
+        "left": null,
+        "right": {
+          "municipio": [
+            4315503,
+            "Portão",
+            0.71,
+            260.0,
+            35000
+          ],
+          "left": null,
+          "right": null
+        }
+      }
+    }
+  },
+  "right": {
+    "municipio": [
+      4304606,
+      "Canoas",
+      0.81,
+      1200.0,
+      340000
+    ],
+    "left": {
+      "municipio": [
+        4318705,
+        "São Leopoldo",
+        0.78,
+        980.0,
+        230000
+      ],
+      "left": {
+        "municipio": [
+          4323002,
+          "Viamão",
+          0.74,
+          780.0,
+          260000
+        ],
+        "left": {
+          "municipio": [
+            4311560,
+            "Lajeado",
+            0.73,
+            420.0,
+            80000
+          ],
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "municipio": [
+            4305207,
+            "Charqueadas",
+            0.76,
+            380.0,
+            40000
+          ],
+          "left": {
+            "municipio": [
+              4313730,
+              "Passo do Sobrado",
+              0.75,
+              210.0,
+              12000
+            ],
+            "left": null,
+            "right": null
+          },
+          "right": null
+        }
+      },
+      "right": {
+        "municipio": [
+          4301909,
+          "Barra do Ribeiro",
+          0.79,
+          220.0,
+          13000
+        ],
+        "left": null,
+        "right": null
+      }
+    },
+    "right": {
+      "municipio": [
+        4302303,
+        "Cachoeirinha",
+        0.83,
+        720.0,
+        130000
+      ],
+      "left": null,
+      "right": {
+        "municipio": [
+          4300604,
+          "Alvorada",
+          0.88,
+          650.0,
+          200000
+        ],
+        "left": {
+          "municipio": [
+            4309500,
+            "Guaíba",
+            0.85,
+            480.0,
+            100000
+          ],
+          "left": null,
+          "right": {
+            "municipio": [
+              4313375,
+              "Nova Santa Rita",
+              0.86,
+              280.0,
+              28000
+            ],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "municipio": [
+            4306659,
+            "Eldorado do Sul",
+            0.91,
+            420.0,
+            40000
+          ],
+          "left": null,
+          "right": null
+        }
+      }
+    }
+  }
+}

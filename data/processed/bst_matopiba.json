@@ -1,0 +1,201 @@
+{
+  "municipio": [
+    2101400,
+    "Balsas",
+    0.71,
+    420.0,
+    83000
+  ],
+  "left": {
+    "municipio": [
+      2103000,
+      "Caxias",
+      0.65,
+      350.0,
+      163000
+    ],
+    "left": {
+      "municipio": [
+        1718204,
+        "Porto Nacional",
+        0.63,
+        320.0,
+        53000
+      ],
+      "left": {
+        "municipio": [
+          1721000,
+          "Palmas",
+          0.45,
+          580.0,
+          306000
+        ],
+        "left": null,
+        "right": {
+          "municipio": [
+            1702109,
+            "Araguaina",
+            0.52,
+            490.0,
+            180000
+          ],
+          "left": {
+            "municipio": [
+              2211001,
+              "Teresina",
+              0.48,
+              650.0,
+              865000
+            ],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "municipio": [
+              1709500,
+              "Gurupi",
+              0.58,
+              380.0,
+              85000
+            ],
+            "left": {
+              "municipio": [
+                2207702,
+                "Parnaiba",
+                0.55,
+                420.0,
+                155000
+              ],
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "municipio": [
+                2903201,
+                "Barreiras",
+                0.61,
+                480.0,
+                158000
+              ],
+              "left": null,
+              "right": null
+            }
+          }
+        }
+      },
+      "right": null
+    },
+    "right": null
+  },
+  "right": {
+    "municipio": [
+      2112001,
+      "Tasso Fragoso",
+      0.88,
+      210.0,
+      10000
+    ],
+    "left": {
+      "municipio": [
+        2111607,
+        "S.R. Mangabeiras",
+        0.82,
+        280.0,
+        22000
+      ],
+      "left": {
+        "municipio": [
+          2103208,
+          "Chapadinha",
+          0.78,
+          310.0,
+          74000
+        ],
+        "left": {
+          "municipio": [
+            2919553,
+            "L.E. Magalhaes",
+            0.76,
+            360.0,
+            88000
+          ],
+          "left": {
+            "municipio": [
+              2909307,
+              "Correntina",
+              0.74,
+              310.0,
+              29000
+            ],
+            "left": null,
+            "right": null
+          },
+          "right": null
+        },
+        "right": {
+          "municipio": [
+            1708205,
+            "Formoso do Araguaia",
+            0.79,
+            260.0,
+            24000
+          ],
+          "left": null,
+          "right": {
+            "municipio": [
+              2928901,
+              "Sao Desiderio",
+              0.8,
+              290.0,
+              26000
+            ],
+            "left": null,
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "municipio": [
+          2202901,
+          "Corrente",
+          0.87,
+          260.0,
+          26000
+        ],
+        "left": {
+          "municipio": [
+            2211209,
+            "Urucui",
+            0.84,
+            290.0,
+            21000
+          ],
+          "left": {
+            "municipio": [
+              2910503,
+              "Formosa Rio Preto",
+              0.83,
+              280.0,
+              24000
+            ],
+            "left": null,
+            "right": null
+          },
+          "right": null
+        },
+        "right": null
+      }
+    },
+    "right": {
+      "municipio": [
+        2201903,
+        "Bom Jesus",
+        0.91,
+        270.0,
+        24000
+      ],
+      "left": null,
+      "right": null
+    }
+  }
+}

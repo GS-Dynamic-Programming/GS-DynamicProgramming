@@ -16,7 +16,8 @@ import networkx as nx
 # ─────────────────────────────────────────────
 
 def plotar_grafo_mst(grafo, mst_arestas: list,
-                     titulo: str = "Rede de Municípios do RS — MST de Resposta a Enchentes"):
+                     titulo: str = "Rede de Municípios do RS — MST de Resposta a Enchentes",
+                     fonte: str = "Malha viária DNIT + Defesa Civil RS"):
     G = nx.Graph()
     mst_set = {(min(u, v), max(u, v)) for u, v, _ in mst_arestas}
 
@@ -67,7 +68,7 @@ def plotar_grafo_mst(grafo, mst_arestas: list,
 
     custo_mst = sum(w for _, _, w in mst_arestas)
     fig.text(0.5, 0.01,
-             f'Fonte: Malha viária DNIT + Defesa Civil RS | '
+             f'Fonte: {fonte} | '
              f'V={grafo.num_vertices} municípios, E={grafo.num_arestas} rodovias | '
              f'Custo MST={custo_mst:.2f}h deslocamento',
              ha='center', fontsize=8, style='italic', color='#555555')
